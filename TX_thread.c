@@ -38,6 +38,8 @@ UINT TX(LPVOID ARG) {
           continue; // 타이머가 동작하고 있다면 해당 데이터 건들지 않고, 패스하기 위함.
         }
         if (Send->IS == FALSE) { // Information인 경우
+          
+          //////////////////////////// FLOW CONTROL 위함 //////////////////////////////////////
           while (count_for_Timer >= 4) { //Flow control, Timer갯수가 4개 이상일시 전송 방지
             CR.Unlock(); // 주기적인 체크 방식
             
