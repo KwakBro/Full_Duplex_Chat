@@ -28,15 +28,12 @@ MFC를 이용하여 간단한 Socket 통신 프로그램에
 Flow Chart
 ===
 >+ Send Error [ Time out ]
----
 >>![image](https://user-images.githubusercontent.com/68212288/87459103-e5e11d00-c645-11ea-81e2-defd159ba4db.png)  
 
 >+ Send Error [ REJ received ]
----
 >>![image](https://user-images.githubusercontent.com/68212288/87459685-abc44b00-c646-11ea-9668-81934da4e1ae.png)  
 
 >+ Send Error [ lack of Timeslot(window) ]  
----
 >>![image](https://user-images.githubusercontent.com/68212288/87459685-abc44b00-c646-11ea-9668-81934da4e1ae.png)    
 --------------------------------------
 
