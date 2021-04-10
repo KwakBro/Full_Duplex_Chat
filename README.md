@@ -15,13 +15,11 @@ MFC를 이용하여 간단한 Socket 통신 프로그램에
 
 기능 추가하여 데이터통신의 개념 실습.  
 
---------------------------------------
 
 구조 
 ===
 >![image](https://user-images.githubusercontent.com/68212288/87344185-f089ac80-c588-11ea-8375-e524832ca675.png)  
 >![image](https://user-images.githubusercontent.com/68212288/87344304-2595ff00-c589-11ea-97cd-333168593f6b.png)  
---------------------------------------
 
   
 
@@ -35,7 +33,6 @@ Flow Chart
 
 >+ Send Error [ lack of Timeslot(window) ]  
 >>![image](https://user-images.githubusercontent.com/68212288/87459685-abc44b00-c646-11ea-9668-81934da4e1ae.png)    
---------------------------------------
 
 
 
@@ -62,7 +59,6 @@ Flow Chart
     Error가 발생하여 REJ를 받거나, RR(p=1) 을 받는 경우 가장 마지막으로 성공한 상황까지 n을 옮긴다.  
     Window를 n까지 옮긴듯한 동작이므로 Go-Back-n 이다.  
     
---------------------------------------
 
 결과물
 ===
