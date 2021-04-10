@@ -47,19 +47,15 @@ Flow Chart
 동작원리
 ===
 >+ Segmentation  
----
 >>![image](https://user-images.githubusercontent.com/68212288/87447759-ebcf0200-c635-11ea-875b-5b41362c55b0.png)  
 
 >+ Reassembly  
----
 >>![image](https://user-images.githubusercontent.com/68212288/87447832-ff7a6880-c635-11ea-88d5-365efceccee7.png)  
 
 >+ CheckSum  
----
 >>![image](https://user-images.githubusercontent.com/68212288/87447886-115c0b80-c636-11ea-9cf2-490470807d98.png)  
 
 >+ Sliding Window 
----
 >>![image](https://user-images.githubusercontent.com/68212288/87447955-2afd5300-c636-11ea-96b1-4a5b161b5ac1.png)  
 
     RR 을 받는 경우 정상적으로 송신받은 데이터는 제거 후 윈도우를 동기화. 이때의 동작이 Sliding Window  
